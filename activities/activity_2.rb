@@ -14,8 +14,8 @@ def print_full_name(name)
     fullname = fullname + value + " "
   end
 
-  p fullname
+  return fullname
 
 end
 
-print_full_name(name)
+p print_full_name(name)

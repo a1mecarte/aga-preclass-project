@@ -18,8 +18,8 @@ def array_of_difference(ages)
 
   end
 
-  p new_array
+  return new_array
 
 end
 
-array_of_difference([50, 42, 38, 26, 10])
+p array_of_difference([50, 42, 38, 26, 10])
